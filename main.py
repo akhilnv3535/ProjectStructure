@@ -13,7 +13,10 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
     print('hey')
+    from Stream.FetchSageMaker import call_streaming
 
+    print(call_streaming())
+    from APIs.GPTAPI import call_api
+
+    print(call_api())
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
-
